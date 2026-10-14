@@ -8,7 +8,6 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first number: ");
         int num1 = scanner.nextInt();
-        scanner.nextLine();
 
         System.out.print("Enter the second number: ");
         int num2 = scanner.nextInt();
