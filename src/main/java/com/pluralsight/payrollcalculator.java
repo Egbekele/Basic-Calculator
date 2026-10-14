@@ -21,8 +21,7 @@ public class payrollcalculator {
 
         if (hours > 40) {
             float overtime = (hours * payRate) * 1.5f;
-            System.out.println("Your gross pay with your overtime pay is: $"
-            + overtime);
+            System.out.println("Your gross pay with your overtime pay is: $" + overtime);
         }
         else
         {
